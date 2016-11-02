@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>blog文章信息新增</title>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div style="display: none">
+        <form action="/admin/blog/delete" method="post" id="delForm">
+            <input type="hidden" name="id" id="hfID">
+        </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Blog文章列表</h3>
+                    </div>
+                    <div class="panel-body">
+                    <a href="/admin/blog/add" class="btn btn-primary">新增</a>
+                        <table class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>序号</th>
+                                    <th>标题</th>
+                                    <th>简介</th>
+                                    <th>浏览量</th>
+                                    <th>发布时间</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{each list}}
+                                <tr>
+                                    <td>{{$index+1}}</td>
+                                    <td>{{$value.title}}</td>
+                                    <td>{{$value.description}}</td>
+                                    <td>{{$value.view_times}}</td>
+                                    <td>{{$value.create_time}}</td>
+                                    <td>
+                                      <a href="/admin/blog/edit/{{$value.id}}">[修改]</a>
+                                      <a href="javascript:void(0)" onclick="doDel('{{$value.id}}')">[删除]</a>
+                                    </td>
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/lib/jquery-1.9.1.js"></script>
+    <script src="/lib/jquery.validate.js"></script>
+    <script src="/lib/messages_zh.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        function doDel(id){
+            if(confirm('是否确认删除?')){
+                $('#hfID').val(id);
+                $('#delForm').submit();
+            }
+        }
+    </script>
+</body>
+
+</html>

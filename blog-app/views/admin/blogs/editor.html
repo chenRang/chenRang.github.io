@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Chen" />
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">blog文章编辑</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form id="dataForm" class="form-horizontal" method="post" action="{{postUrl}}">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">标题</label>
+                                <div class="col-sm-7">
+                                    <input type="text" class="form-control" value='{{data.title}}' name="title" placeholder="标题" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">简介</label>
+                                <div class="col-sm-7">
+                                    <textarea placeholder="简介" name="description" class="form-control" rows="3">{{data.description}}</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">内容</label>
+                                <div class="col-sm-7">
+                                    <textarea placeholder="内容" name="content"class="form-control" id="" rows="6">{{data.content}}</textarea>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <div class="col-sm-9 col-sm-offset-4">
+                                    <button type="submit" class="btn btn-primary">确定</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/lib/jquery-1.9.1.js"></script>
+    <script src="/lib/jquery.validate.js"></script>
+    <script src="/lib/messages_zh.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/blog_add.js"></script>
+
+</body>
+</html>
