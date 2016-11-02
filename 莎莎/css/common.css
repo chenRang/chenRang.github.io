@@ -1,0 +1,69 @@
+*{margin: 0;padding: 0;}
+img{border: 0;}
+ul li{list-style: none;}
+a{color: #6C6C6C;text-decoration: none;}
+a:hover{color:#EC3E7D;}
+body{font-family: "宋体","微软雅黑",Arial,"Times New Roman";font-size: 12px;color: #6C6C6C;line-height: 150%;min-width:1263px;}
+.layout{width:1096px; margin: 0 auto;clear:both;overflow:hidden;}
+/*header*/
+.header{width:100%;height: 33px;background: #F2F2F2;}
+.header_l{float: left;width: 214px;height: 33px;line-height: 33px;}
+.header_l a{color:#EC3E7D;text-decoration: underline;}
+.header_r{width: 540px;height: 33px;float: right;}
+.header_r ul li{float:left;}
+.header_r ul li a{padding:0px 10px;height: 33px;line-height: 33px;text-align: center;}
+.header_r ul li:hover{background: #FFF;}
+.header_r ul li dl{position:absolute;z-index:1;background:#FFF;display: none;}
+.logo{width: 100%;height: 95px;background: #FFF;}
+/*logo*/
+.logo_l{float: left;height: 45px;width: 181px;margin: 21px 0px 29px 0px;background: url(../img/logo.png) no-repeat center;}
+.logo_c{width: 436px;height: 95px;float:left; position: relative;margin-left: 220px;}
+.logo_c img{position: absolute;top: 21px;left: 304px;}
+.logo_c input{width: 300px;height: 32px;border: 2px solid #EC3E7D;position: absolute;top: 21px;left: 2px;}
+.logo_c h5{position: absolute;top:60px;}
+.logo_r{width:131px;height: 32px;float:right;border: 1px solid #F2F2F2;margin-top:20px;}
+.logo_r .car{float: left;width:30px;height: 32px;background: url(../img/car.png) no-repeat center;}
+.logo_r .me{width: 101px;height: 32px;line-height: 32px;text-align: center;background: #F2F2F2;float: left;}
+/*nav1*/
+.nav1{width: 100%;background: #EC3E7D;height: 45px;}
+.nav1_l{width:552px;height: 45px;float: left;}
+.nav1_l ul li{float: left;}
+.nav1_l ul li a{display: block;height: 45px;line-height: 45px;text-decoration: none;color:#fff;padding:0 15px;font-size: 16px;font-weight: bold;}
+.nav1_l ul li dl{position: absolute;z-index:1;position:absolute;width: 200px;height:250px;background:#FFF;display:none;border: 1px solid gray;}
+.nav1_l ul li dl dt{background: #E7E7E7;color: #EC3E7D;height: 30px;line-height: 30px;}
+.nav1_l ul li dl dd h4 a{color: #000;}
+.nav1_r{width: 167px;float: right;color: #fff;height: 45px;line-height: 45px;}
+.nav1_r img{margin-top:13px;}
+/*nav2*/
+.nav2{width: 100%;height: 40px;background: #222;}
+.nav2_l{float:left; width: 252px;height: 40px;line-height: 40px;color: #fff;font-size: 16px;font-weight: bold;margin-left: 15px;}
+.nav2_r{float:left;height: 40px;width:800px}
+.nav2_r ul li{float: left;}
+.nav2_r ul li a{display: block;height: 40px;line-height: 40px;padding:0 15px;text-align:center;text-decoration: none;color:#fff;font-weight: bold;font-size:14px;}
+/*bottom*/
+.bottom{height:285px;border-top: 3px solid #EC9A62;border-bottom: 1px solid gray;}
+.bottom .bottom_l{float:left;width:166px;height:39px;margin-left: 10px;margin-top: 65px;background: url(../img/shasha.png) no-repeat center;}
+.bottom .bottom_c{float: left;height:285px ;width: 600px;float: left;}
+.bottom .bottom_c ul li{float:left;margin-left: 60px;margin-top: 60px;}
+.bottom .bottom_c ul li h4{color:#EC3E7D ;font-weight: bold;}
+.bottom .bottom_c ul li p{margin-top: 5px;}
+.bottom .bottom_r{width: 315px;height:285px;float: right;}
+.bottom .bottom_r .bottom_r1{width: 75px;height:120px;margin-top:60px;margin-left:20px;float: left;}
+.bottom .bottom_r .bottom_r1 p{font-size: 10px;text-align: center;}
+.bottom .bottom_r .bottom_r2{width: 75px;height:120px;margin-top:60px;margin-left: 60px;float: left;}
+.bottom .bottom_r .bottom_r2 p{font-size: 10px;text-align: center;}
+.bottom_list{height: 52px;width: 100%;border-bottom: 1px solid gray;}
+.bottom_list ul li{float: left;}
+.bottom_list ul li a{height: 52px;line-height: 52px;display: block;padding: 0 25px;color:#C69A62;}
+.bottom_list ul li a:hover{color:black;}
+/*footer*/
+.footer{height: 77px;}
+.footer .footer_l{float: left;height: 77px;line-height: 77px;margin-left: 50px;}
+.footer .footer_r{float:right;height: 77px;line-height: 77px;margin-right: 50px;}
+/*右侧边栏*/
+.rightbox{position:fixed;top: 0px;background: #4C4C4C;width: 40px;height: 100%;right:0px;z-index: 3;}
+.rightbox_1{position: relative;width: 38px;height: 38px;line-height: 38px;text-align: center;left: 0;}
+.rightbox_1_left{position: absolute;right: 38px;width: 100px;height: 38px;background: #4C4C4C;color: #FFF;margin-left: 5px;}
+.rightbox_2{width: 20px;height: 120px;top: 250px;padding: 10px;color: #fff;position:absolute;border-bottom: 1px solid gray;border-top: 1px solid gray;}
+.rightbox_2 a{color: #fff}
+.rightbox_3{width: 38px;height: 34px;position: relative;top: 450px;padding: 10px;color: #FFF;cursor: pointer;}

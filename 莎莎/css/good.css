@@ -1,0 +1,60 @@
+/*good*/
+.good{width: 100%;height: 811px;background: #EBEBEB;padding-bottom: 30px;}
+.good_top{height: 50px;line-height: 50px;}
+.good_bottom{height: 761px;background: #FFF;}
+.good_bottom_left{width: 525px;float: left;padding: 30px;}
+.good_bottom_right{width: 503px;height:761px;float: right;}
+.good_bottom_right_contain{padding: 50px;height: 661px;}
+.good_bottom_right_contain ul{height: 120px;}
+.good_bottom_right_contain ul li{float: left;margin-right: 20px;margin-top: 50px;border: 1px solid #EC9A62;color: #EC9A62;margin-bottom: 50px;}
+.good_bottom_right_contain p b{color: #EC3E7D;font-size: 18px;}
+.good_bottom_right_contain p span{text-decoration: line-through;}
+.good_bottom_right_contain  dl dd{height: 30px;line-height: 30px;}
+.good_bottom_right_contain dl dd span{background: #71D2C3;color: #FFF;}
+.good_bottom_right_contain .look{height: 50px;margin: 30px 0;line-height: 50px;border-bottom: 1px solid gray;border-top: 1px solid gray;}
+.good_bottom_right_contain .cart{width: 220px;height: 50px;background: #EC3E7D;color: #FFF;line-height: 50px;text-align: center;}
+.good_main{width:100%;height:2800px;background: #EBEBEB;padding-bottom: 30px;}
+.good_main_left{width: 253px;height: 967px;background: #FFF;margin-right: 30px;float: left;}
+.good_main_left h4{font-size:16px;height: 52px;line-height: 52px;padding-left: 15px;border-left: 3px solid #C69A62;}
+.good_main_left dl{height: 110px;border-bottom: 1px dashed gray;margin: 20px 0px;}
+.good_main_left dl dt{margin:0px 35px ;float: left;}
+.good_main_left dl dd span{color: #EC3E7D;font-size: 16px;font-weight: bold;}
+.good_main_right{width: 810px;height:2800px;float: right;}
+.good_main_right .good_main_right1{height: 50px;background: #FFF;margin-bottom: 30px;}
+.good_main_right .good_main_right1 h4{float:left;width: 125px;text-align: center;line-height: 50px;}
+.good_main_right .good_main_right1 h2{color:#EC3E7D;line-height: 50px;float: left;}
+.good_main_right .good_main_right1 .good_main_right1_car{width: 120px;background: #EC3E7D;color: #FFF;float: right;height: 50px;line-height: 50px;text-align: center;}
+.good_main_right .good_main_right2{height: 400px;background: #FFF;margin-bottom: 30px;}
+.good_main_right .good_main_right2_first{padding:10px;padding-right: 0px;font-size: 16px;font-weight: bold;}
+.good_main_right .good_main_right2_first img{float: right;}
+.good_main_right .good_main_right2_second{padding: 50px;}
+.good_main_right .good_main_right2_second ul li{height: 35px;line-height: 35px;}
+.good_main_right .good_main_right3{height: 1867px;background: #FFF;margin-bottom: 30px;}
+.good_main_right .good_main_right3_first{padding:10px;padding-right: 0px;font-size: 16px;font-weight: bold;}
+.good_main_right .good_main_right3_first img{float: right;}
+.good_main_right .good_main_right3_second{padding: 30px;}
+.good_main_right .good_main_right3_second h3{margin-bottom:30px ;}
+.good_main_right .good_main_right3_second p{margin-top:30px;line-height: 30px;}
+.good_main_right .good_main_right4{height: 900px;background: #FFF;}
+.good_main_right .good_main_right4_first{padding:10px;padding-right: 0px;font-size: 16px;font-weight: bold;}
+.good_main_right .good_main_right4_first img{float: right;}
+.good_main_right .good_main_right4_second{padding: 30px;}
+.good_main_right .good_main_right4_secondbox{width: 135px;height: 35px;line-height:35px;text-align:center;border: 1px solid #EC3E7D;color: #EC3E7D;float: right;}
+.good_main_right .good_main_right4_third{height: 200px;}
+.good_main_right .good_main_right4_thirdleft{width: 130px;float: left;padding-left: 30px;}
+.good_main_right .good_main_right4_thirdright{width: 600px;height:200px;float: right;background: #F2F2F2;margin-right: 30px;}
+/*主容器*/
+.con-FangDa{width: 300px;height: auto;background-color:#fff;float: left;margin-left: 80px;}
+/*正常容器*/
+.con-fangDaIMg{width: 300px;height:450px;position: relative;background-color: #454545;}
+.con-fangDaIMg > img{width: 100%;height:100%}
+/*滑块*/
+.magnifyingBegin{width: 150px;height: 175px;left: 0;top: 0;background-color: #454545;opacity: 0.5;filter:alpha(opacity=50);position: absolute;cursor: move;display: none;}
+/*放大镜显示区域*/
+.magnifyingShow{width: 450px;height: 514px;display: none;position: absolute;right: -600px;top: 80px;overflow: hidden;background-color: #454545;border: 1px solid gray;}
+.magnifyingShow > img{width: 900px;height: 1350px;margin-left:0;margin-top: 0;z-index: 90;}
+/*设置选择图片容器*/
+.con-FangDa-ImgList{margin-top:10px;height:54px;width:320px;list-style: none;}
+.con-FangDa-ImgList > li{margin-right:7px;width: 50px;height: 50px;float: left;cursor: pointer;border: 2px solid #666;text-align:center;}
+.con-FangDa-ImgList > li > img{vertical-align:top;display:inline;width:auto;height:50px;}
+.con-FangDa-ImgList > .active{border-color:#000;}

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>莎莎网</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/log.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+	</head>
+	<body>
+		<!--header start-->
+		<div class="header">
+			<div class="layout">
+				<div class="header_l">
+					欢迎光临莎莎官网!&nbsp;&nbsp;<a href="log.html">登录</a>或<a href="reg.html">注册</a>
+				</div>
+				<div class="header_r">
+					<ul>
+						<li class="header_li">
+							<a href="#"><img src="img/zhanghu.png" />我的账户<img src="img/jianjiao.png" /></a>
+							<dl class="dl1">
+								<dd><a href="#">我的订单</a></dd>
+								<dd><a href="#">我的积分</a></dd>
+								<dd><a href="#">我的优惠</a></dd>
+								<dd><a href="#">我的收藏</a></dd>
+								<dd><a href="#">我的评价</a></dd>
+							</dl>
+						</li>						
+						<li><a href="#"><img src="img/shoucang.png" />我的收藏</a></li>
+						<li><a href="#"><img src="img/xingxiang.png" />我的站内信</a></li>
+						<li><a href="#">积分中心</a></li>
+						<li><a href="#">Global Site</a></li>
+						<li class="header_li">
+							<a href="#">关注我们<img src="img/jianjiao.png"></a>
+							<dl class="dl1">
+								<dd><img src="img/about1.png" /><a href="#">我的收藏</a></dd>
+								<dd><img src="img/about2.png" /><a href="#">新浪微博</a></dd>
+								<dd><img src="img/about3.png" /><a href="#">莎莎微信</a></dd>
+								<dd><img src="img/about4.png" /><a href="#">优酷视频</a></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--header over-->
+		<!--logo start-->
+		<div class="logo">
+			<div class="layout">
+				<div class="logo_l"></div>
+				<div class="logo_c">
+					<input type="text" placeholder="面膜"/><img src="img/search.png" /><br/>
+					<h5><a href="#">美迪惠尔</a>&nbsp;|&nbsp;<a href="#">遮瑕</a>&nbsp;|&nbsp;<a href="#">瑞士密黛诗</a>&nbsp;|&nbsp;<a href="#">保湿</a>&nbsp;|&nbsp;<a href="#">收毛孔</a>&nbsp;|&nbsp;<a href="#">悦诗风吟</a></h5>
+				</div>
+				<div class="logo_r">
+					<div class="car"></div>
+					<div class="me">我的购物车</div>
+				</div>
+			</div>
+		</div>
+		<!--logo over-->
+		<!--nav1 start-->
+		<div class="nav1">
+			<div class="layout">
+				<div class="nav1_l">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="#">面部护肤</a></li>
+						<li><a href="#">彩妆</a></li>
+						<li><a href="#">限时特卖</a></li>
+						<li><a href="#">贵宾专享</a></li>
+						<li class="nav1_l_last">
+							<a href="#">所有品牌<img src="img/jiao.png" /></a>
+							<dl class="nav1_l_last1">
+								<dt>热门品牌</dt>
+								<dd>SK_II</dd>
+								<dd>悦诗风吟innisfree</dd>
+								<dd>菲诗小铺the face shop</dd>
+								<dd>伊思It's skin</dd>
+								<dd>自然堂</dd>
+								<dd>韩束</dd>
+								<dd>雅漾</dd>
+								<dd><h4><a href="#">查看全部品牌</a></h4></dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div class="nav1_r">
+					<img src="img/fly.png" />&nbsp;满￥249包邮&nbsp;<img src="img/zheng.png" />&nbsp;<img src="img/bus.png" />
+				</div>
+			</div>
+		</div>
+		<!--nav1 over-->
+		<!--nav2 start-->
+		<div class="nav2">
+			<div class="layout">
+				<div class="nav2_l">所有分类</div>
+				
+				<div class="nav2_r">
+					<ul>
+						<li><a href="#">新品上市</a></li>
+						<li><a href="#">本周促销</a></li>
+						<li><a href="#">韩国热卖</a></li>
+						<li><a href="#">面膜专区</a></li>
+						<li><a href="#">清货特卖</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--nav2 over-->
+		<!--banner start-->
+		<div class="banner">
+			<div class="banner_picture">
+				<div class="banner_pic" style="background: url(img/banner1.jpg) no-repeat center;"></div>
+				<div class="banner_pic" style="background: url(img/banner2.jpg) no-repeat center;"></div>
+				<div class="banner_pic" style="background: url(img/banner3.jpg) no-repeat center;"></div>
+				<div class="banner_pic" style="background: url(img/banner4.jpg) no-repeat center;"></div>
+				<div class="banner_pic" style="background: url(img/banner5.jpg) no-repeat center;"></div>
+			</div>
+			<div class="banner_nav">
+				<ul>
+					<li class="selected"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="banner_list">
+				<ul>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">热门功效</a><br/><a href="#">保湿</a>&nbsp;<a href="#">美白提亮</a>&nbsp;<a href="#">收毛孔</a></div>
+						<div class="banner_list_r"><h4><a href="#">热门功效</a></h4>收毛孔&nbsp;保湿&nbsp;去黑眼圈&nbsp;保湿&nbsp;美白&nbsp;祛皱</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">面部护肤</a><br/><a href="#">精华</a>&nbsp;<a href="#">洁面</a>&nbsp;<a href="#">化妆水</a></div>
+						<div class="banner_list_r"><h4><a href="#">面部护肤</a></h4>眼霜&nbsp;面膜&nbsp;保湿&nbsp;水乳&nbsp;保湿&nbsp;保湿</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">彩妆</a><br/><a href="#">保湿</a>&nbsp;<a href="#">美唇</a>&nbsp;<a href="#">粉底</a></div>
+						<div class="banner_list_r"><h4><a href="#">彩妆</a></h4>BB霜&nbsp;CC霜&nbsp;隔离霜&nbsp;眼线&nbsp;睫毛膏&nbsp;保湿</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">香水</a><br/><a href="#">保湿</a>&nbsp;<a href="#">女士香水</a>&nbsp;<a href="#">男士香水</a></div>
+						<div class="banner_list_r"><h4><a href="#">香水</a></h4>保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">健康美肌</a><br/><a href="#">保湿</a>&nbsp;<a href="#">美白提亮</a>&nbsp;<a href="#">收毛孔</a></div>
+						<div class="banner_list_r"><h4><a href="#">健康美肌</a></h4>保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">纤体美胸</a></div>
+						<div class="banner_list_r"><h4><a href="#">纤体美胸</a></h4>保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">个人护理</a></div>
+						<div class="banner_list_r"><h4><a href="#">个人护理</a></h4>保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">男士专区</a></div>
+						<div class="banner_list_r"><h4><a href="#">男士专区</a></h4>保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿</div>						
+					</li>
+					<li>
+						<div class="banner_list_l"><img src="img/gongxiao.png" />&nbsp;<a href="#">热门功效</a></div>
+						<div class="banner_list_r"><h4><a href="#">热门功效</a></h4>保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿&nbsp;保湿</div>						
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--banner over-->
+		<!--check start-->
+		<div class="check">
+			<div class="layout">
+				<img src="img/look.png" />
+			</div>
+		</div>
+		<!--check over-->
+		<!--checkimg start-->
+		<div class="checkimg">
+			<div class="layout">
+				<img src="img/check1.jpg" />			
+				<img src="img/check2.jpg" />
+				<img src="img/check3.jpg" />
+				<img src="img/check4.jpg" />
+				<img src="img/check5.jpg" />
+				<img src="img/check6.jpg" />
+				<img src="img/check7.jpg" />
+				<img src="img/check8.jpg" />
+			</div>
+		</div>
+		<!--checkimg over-->
+		
+		<!--imgs start-->
+		<div class="imgs">
+			<!--limit start-->
+			<div class="limit">
+				<div class="limit_l"></div>
+				<div class="limit_r"><a href="#">查看所有></a></div>
+			</div>
+			<!--limit over-->
+			<!--limitimg start-->
+			<div class="limitimg">
+				<div class="limitimgs">
+					<div class="limitimgs_pic">	
+						<img src="img/limit1.png" />
+						<div class="limitimgs_pic2" style="display: none;"><img src="img/qianggou.png" /></div>
+					</div>
+					<div class="intro">
+						<div class="price">
+							<span class="newprice">￥249.0</span>
+							<span class="oldprice">￥540.5</span>
+							<span class="num">已售29件</span>
+						</div>
+						<div class="intro1">
+							<div class="yinhao">
+								<img src="img/yinhao.png" />
+							</div>
+							<span>深层活化肌肤细胞，有效改善肌肤松弛，去除枯黄，防止斑点及肌肤美白。<span>				
+						</div>
+						<p class="intro2">兰蔻&nbsp;清莹清洁系列</p>
+						<p class="intro3">清莹柔肤水（粉水）</p>
+						<p class="intro4">400毫升</p>
+						<p class="intro5"><img src="img/click.png" /><span>剩余00天00时00分00秒</span></p>
+					</div>
+				</div>
+				<div class="limitimgs">
+					<div class="limitimgs_pic">
+						<img src="img/limit2.png" />
+						<div class="limitimgs_pic2" style="display: none;"><img src="img/qianggou.png" /></div>
+					</div>
+					<div class="intro">
+						<div class="price">
+							<span class="newprice">￥249.0</span>
+							<span class="oldprice">￥540.5</span>
+							<span class="num">已售29件</span>
+						</div>
+						<div class="intro1">
+							<div class="yinhao">
+								<img src="img/yinhao.png" />
+							</div>
+							<span>深层活化肌肤细胞，有效改善肌肤松弛，去除枯黄，防止斑点及肌肤美白。<span>				
+						</div>
+						<p class="intro2">兰蔻&nbsp;清莹清洁系列</p>
+						<p class="intro3">清莹柔肤水（粉水）</p>
+						<p class="intro4">400毫升</p>
+						<p class="intro5"><img src="img/click.png" /><span>剩余00天00时00分00秒</span></p>
+					</div>
+				</div>
+				<div class="limitimgs" style="margin-right: 0px;">
+					<div class="limitimgs_pic">
+						<img src="img/limit3.png" />
+						<div class="limitimgs_pic2" style="display: none;"><img src="img/qianggou.png" /></div>
+					</div>
+					<div class="intro">
+						<div class="price">
+							<span class="newprice">￥249.0</span>
+							<span class="oldprice">￥540.5</span>
+							<span class="num">已售29件</span>
+						</div>
+						<div class="intro1">
+							<div class="yinhao">
+								<img src="img/yinhao.png" />
+							</div>
+							<span>深层活化肌肤细胞，有效改善肌肤松弛，去除枯黄，防止斑点及肌肤美白。<span>				
+						</div>
+						<p class="intro2">兰蔻&nbsp;清莹清洁系列</p>
+						<p class="intro3">清莹柔肤水（粉水）</p>
+						<p class="intro4">400毫升</p>
+						<p class="intro5"><img src="img/click.png" /><span>剩余00天00时00分00秒</span></p>
+					</div>
+				</div>
+				<div class="limitimgs">
+					<div class="limitimgs_pic">
+						<img src="img/limit4.png" />
+						<div class="limitimgs_pic2" style="display: none;"><img src="img/qianggou.png" /></div>
+					</div>
+					<div class="intro">
+						<div class="price">
+							<span class="newprice">￥249.0</span>
+							<span class="oldprice">￥540.5</span>
+							<span class="num">已售29件</span>
+						</div>
+						<div class="intro1">
+							<div class="yinhao">
+								<img src="img/yinhao.png" />
+							</div>
+							<span>深层活化肌肤细胞，有效改善肌肤松弛，去除枯黄，防止斑点及肌肤美白。<span>				
+						</div>
+						<p class="intro2">兰蔻&nbsp;清莹清洁系列</p>
+						<p class="intro3">清莹柔肤水（粉水）</p>
+						<p class="intro4">400毫升</p>
+						<p class="intro5"><img src="img/click.png" /><span>剩余00天00时00分00秒</span></p>
+					</div>
+				</div>
+				<div class="limitimgs">
+					<div class="limitimgs_pic">
+						<img src="img/limit1.png" />
+						<div class="limitimgs_pic2" style="display: none;"><img src="img/qianggou.png" /></div>
+					</div>
+					<div class="intro">
+						<div class="price">
+							<span class="newprice">￥249.0</span>
+							<span class="oldprice">￥540.5</span>
+							<span class="num">已售29件</span>
+						</div>
+						<div class="intro1">
+							<div class="yinhao">
+								<img src="img/yinhao.png" />
+							</div>
+							<span>深层活化肌肤细胞，有效改善肌肤松弛，去除枯黄，防止斑点及肌肤美白。<span>				
+						</div>
+						<p class="intro2">兰蔻&nbsp;清莹清洁系列</p>
+						<p class="intro3">清莹柔肤水（粉水）</p>
+						<p class="intro4">400毫升</p>
+						<p class="intro5"><img src="img/click.png" /><span>剩余00天00时00分00秒</span></p>
+					</div>
+				</div>
+				<div class="limitimgs" style="margin-right: 0px;">
+					<div class="limitimgs_pic">
+						<img src="img/limit2.png" />
+						<div class="limitimgs_pic2" style="display: none;"><img src="img/qianggou.png" /></div>
+					</div>
+					<div class="intro">
+						<div class="price">
+							<span class="newprice">￥249.0</span>
+							<span class="oldprice">￥540.5</span>
+							<span class="num">已售29件</span>
+						</div>
+						<div class="intro1">
+							<div class="yinhao">
+								<img src="img/yinhao.png" />
+							</div>
+							<span>深层活化肌肤细胞，有效改善肌肤松弛，去除枯黄，防止斑点及肌肤美白。<span>				
+						</div>
+						<p class="intro2">兰蔻&nbsp;清莹清洁系列</p>
+						<p class="intro3">清莹柔肤水（粉水）</p>
+						<p class="intro4">400毫升</p>
+						<p class="intro5"><img src="img/click.png" /><span>剩余00天00时00分00秒</span></p>
+					</div>
+				</div>
+			</div>
+			<!--limitimg over-->
+			<!--hot start-->
+			<div class="hot">
+				<div class="hot_l"></div>
+				<div class="hot_r"><a href="#">查看所有></a></div>
+			</div>
+			<!--hot over-->
+			<!--hotlist start-->
+			<div class="hotlist">
+				<div class="hotlist_li">
+					<ul>
+						<li><a href="#">欧美品牌</a></li>
+						<li><a href="#">代理品牌</a></li>
+						<li><a href="#">莎莎独家</a></li>
+						<li><a href="#">日本品牌</a></li>
+						<li><a href="#">韩国品牌</a></li>
+						<li><a href="#">港台品牌</a></li>
+					</ul>
+					</div>
+				<!--hotlist over-->
+				<!--hotimg start-->
+				<div class="hotimg" style="display: block;">		
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img1.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img7.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img8.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img9.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img10.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img11.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img12.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+				</div>
+				<div class="hotimg">
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img2.png" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+				</div>
+				<div class="hotimg">
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img3.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+				</div>
+				<div class="hotimg">
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li"  style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img4.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+				</div>
+				<div class="hotimg">
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img5.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+				</div>
+				<div class="hotimg">
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+					<div class="hotimg_li" style="margin-right: 0px;">
+						<div class="hotimg_li1"><img src="img/img6.jpg" /></div>
+						<div class="hotimg_li2"><img src="img/s.jpg" /></div>
+					</div>
+				</div>
+				
+			</div>
+			<!--hotimg over-->
+		</div>
+		<!--imgs over-->
+		<!--bottom start-->
+		<div class="bottom">
+			<div class="layout"> 
+				<div class="bottom_l"></div>
+				<div class="bottom_c">
+					<ul>
+						<li>
+							<h4>新手上路</h4>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+						</li>
+						<li>
+							<h4>新手上路</h4>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+						</li>
+						<li>
+							<h4>新手上路</h4>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+						</li>
+						<li>
+							<h4>新手上路</h4>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+						</li>
+						<li>
+							<h4>新手上路</h4>
+							<p><a href="#">购物流程</a></p>
+							<p><a href="#">购物流程</a></p>
+						</li>
+					</ul>
+				</div>
+				<div class="bottom_r">
+					<div class="bottom_r1">
+						<img src="img/weibo.png" />
+						<p>莎莎网官方微博</p>
+						<p>@莎莎网</p>
+					</div>
+					<div class="bottom_r2">
+						<img src="img/weixin.png" />
+						<p>莎莎网官方微信</p>
+						<p>ID:125233</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--bottom over-->
+		<!--bottom_list start-->
+		<div class="bottom_list">
+			<div class="layout">
+				<ul>
+					<li><a href="#">关于莎莎</a></li>
+					<li><a href="#">使用条款</a></li>
+					<li><a href="#">隐私政策</a></li>
+					<li><a href="#">批发服务</a></li>
+					<li><a href="#">招商合作</a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">港澳台店铺推广</a></li>
+					<li><a href="#">人才招聘</a></li>
+					<li><a href="#">联络我们</a></li>
+					<li><a href="#">其他送货地区</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--bottom_list over-->
+		<!--footer start-->
+		<div class="footer">
+			<div class="layout">
+				<div class="footer_l">Copyright2000_2005 sha sha dot limited版权所有</div>
+				<div class="footer_r">莎莎国际控股有限公司</div>
+			</div>
+		</div>
+		<!--footer over-->
+	<!--左侧边栏-->
+	<div class="leftbox">
+		<div class="leftbox1">每日必看</div>
+		<div class="leftbox2">新品上市</div>
+		<div class="leftbox3">限时特卖</div>
+		<div class="leftbox4">热门品牌</div>
+		<div class="leftbox5">销售排行</div>		
+	</div>
+	<!--右侧边栏-->
+	<div class="rightbox">
+		<div class="rightbox_1" style="top: 190px; background: url(img/right_1.png) no-repeat center;">
+			<div class="rightbox_1_left" style="display: none;">我的账户</div>
+		</div>
+		<div class="rightbox_2">
+			<img src="img/cart.png" /><a href="car.html">我的购物车</a>
+		</div>
+		<div class="rightbox_1" style="top: 370px; background: url(img/right_3.png) no-repeat center;">
+			<div class="rightbox_1_left" style="display: none;">我的收藏</div>
+		</div>
+		<div class="rightbox_1" style="top:390px; background: url(img/right_5.png) no-repeat center;">
+			<div class="rightbox_1_left" style="display: none; ">浏览记录</div>
+		</div>
+		<div class="rightbox_1" style="top:400px; background: url(img/right_4.png) no-repeat center;" >
+			<div class="rightbox_1_left" style="display: none;">线上客服</div>
+		</div>
+		<div class="rightbox_3">TOP</div>
+	</div>
+	</body>
+</html>

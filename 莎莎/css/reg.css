@@ -1,0 +1,8 @@
+.reg_contain{height: 480px;}
+.reg_contain_left{height:354px;width:600px;float: left;background: url(../img/reg.png) no-repeat center;}
+.reg_contain_right{width: 423px;height: 440px;float: left;border: 1px solid gray;}
+.reg_contain_right1{padding: 40px;}
+.reg_contain_right1 p b{font-size: 20px;}
+.reg_contain_right1 p a{color: #EC3E7D;}
+.reg_contain_right1 input.reg_input{width: 350px;height: 40px;line-height: 40px;margin: 15px 0;}
+.reg_contain_right1 input.reg_in{width: 350px;height: 40px;line-height: 40px;text-align: center;color: #FFF;background: #EC3E7D;margin-top: 40px;}

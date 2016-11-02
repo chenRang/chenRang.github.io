@@ -1,0 +1,9 @@
+.active_contain{width: 100%;height:100%;background: #F2F2F2;}
+.active_contain .demo{width:1090px;height:450px;margin:0 auto;overflow:hidden;}
+.active_contain .demo li{list-style:none;float:left;position:relative;width:83px;height:100%;overflow:hidden;cursor:pointer;}
+.active_contain .demo li:first-child{width:675px;}
+.active_contain .demo li .demo_list{position: absolute;width: 300px;height: 300px;background:#000;right: 0;top: 40px;display: none;}
+.active_contain .demo li .demo_list1{padding: 20px;color: #fff;}
+.active_contain .demo li .demo_list1 .demo_list_des{margin-top: 20px;border-top: 1px solid gray;}
+.active_contain .demo li .demo_list1 h1{color: #C69A62;margin:20px 0;}
+.active_contain .demo li .demo_pic{position: absolute;bottom: 10px;left: 10px;display: none;}

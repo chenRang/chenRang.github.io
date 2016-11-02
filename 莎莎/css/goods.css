@@ -1,0 +1,8 @@
+.goods_contain_bottom{height: 2000px;padding-top: 30px;background: #E7E7E7;}
+.goods_contain_bottom .goods_contain_bottom3{height: 2000px;}
+.goods_contain_bottom .goods_contain_bottom3 .goods_contain_bottom3_li{width: 253px;height:600px;background: #FFF;float: left;margin-right: 26px;margin-bottom: 30px;}
+.goods_contain_bottom .goods_contain_bottom3 .goods_contain_bottom3_li .goods_contain_bottom3_li1{width: 253px;height: 303px;background: url(../img/goods.jpg) no-repeat center;}
+.goods_contain_bottom .goods_contain_bottom3 .goods_contain_bottom3_li .goods_contain_bottom3_li2{height: 50px;line-height: 50px;font-size: 24px;color: #EC3E7D;padding-left:15px;border-bottom: 1px solid gray;border-top: 1px solid gray;}
+.goods_contain_bottom .goods_contain_bottom3 .goods_contain_bottom3_li .goods_contain_bottom3_li2 span{text-decoration: line-through;color: #000000;font-size: 12px;margin-left: 30px;}
+.goods_contain_bottom .goods_contain_bottom3 .goods_contain_bottom3_li p{margin-left: 15px;}
+.goods_contain_bottom .goods_contain_bottom3 .goods_contain_bottom3_li .goods_contain_bottom3_li3{width: 223px;height: 42px;background: #EC3E7D;color: #FFF;margin-left: 15px;}
