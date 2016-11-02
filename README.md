@@ -1,3 +1,3 @@
 # chenRang.github.io
 
-努力称为最好的自己
+努力成为最好的自己
