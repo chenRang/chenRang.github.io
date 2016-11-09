@@ -6,7 +6,7 @@
 https://chenrang.github.io/shasha/
 
 blog-app 个人博客系统
-  //管理后台列表
-https://chenrang.github.io/admin/blog/
-  //博客列表
+--管理后台列表
+https://chenrang.github.io/localhost:3000/admin/blog/
+--博客列表
 https://chenrang.github.io/blog/list  
