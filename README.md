@@ -7,6 +7,9 @@ https://chenrang.github.io/shasha/
 
 blog-app 个人博客系统
 --管理后台列表
-https://chenrang.github.io/localhost:3000/admin/blog/
+admin/blog/
 --博客列表
-https://chenrang.github.io/blog/list  
+blog/list  
+
+rose  玫瑰花 https://chenrang.github.io/rose/ 
+参考博客 http://www.romancortes.com/blog/1k-rose/
