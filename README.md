@@ -10,6 +10,3 @@ blog-app 个人博客系统
 admin/blog/
 --博客列表
 blog/list  
-
-rose  玫瑰花 https://chenrang.github.io/rose/ 
-参考博客 http://www.romancortes.com/blog/1k-rose/
