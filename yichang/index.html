@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="style/common.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.tab ul.menu li').click(function() {
+					//获得当前被点击的元素索引值
+					var Index = $(this).index();
+					//给菜单添加选择样式
+					$(this).addClass('active').siblings().removeClass('active');
+					//显示对应的div
+					$('.tab').children('div').eq(Index).show().siblings('div').hide();
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="wrap">
+				<div class="logo fl">
+					<a href="#">
+						<img src="images/logo.png" />
+					</a>
+				</div>
+				<div class="site_search fr bor br">
+					<form name="formsearch" action="#">
+						<input class="schBox" name="" type="text" value="请输入您要搜索的关键字" onfocus="if(this.value=='请输入您要搜索的关键字'){this.value='';}" onblur="if(this.value==''){this.value='请输入您要搜索的关键字';}" />
+						<button type="submit">站内检索</button>
+					</form>
+				</div>
+			</div>
+			<div class="siteMenu">
+				<div class="wrap">
+					<ul>
+						<li><a href="#">首　页</a>
+						</li>
+						<li><a href="#">产品方案</a>
+						</li>
+						<li><a href="#">客户服务</a>
+						</li>
+						<li><a href="#">新闻资讯</a>
+						</li>
+						<li><a href="#">关于我们</a>
+						</li>
+					</ul>
+					<p class="sideBar">
+						<a href="#">加入收藏</a>｜<a href="#">联系我们</a>｜<a href="#">网站导航</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="index_banner fl" id="banner_tabs">
+				<ul>
+					<li>
+						<a href="#" target="_blank">
+							<img src="images/index_banner1.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="images/index_banner2.jpg" />
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="images/index_banner3.jpg" />
+						</a>
+					</li>
+				</ul>
+				<img style="visibility:hidden;" src="images/index_banner1.jpg" /> <cite> <span class="cur">1</span> <span>2</span> <span>3</span></cite>
+				<div class="cl"></div>
+			</div>
+			<script src="js/flip.js" type="text/javascript"></script>
+			<div class="affiche fl">
+				<h1 class="pr"><span class="pa">公告栏</span></h1>
+				<ul class="Font_list">
+					<li><span>·</span><a href="">数字证书－电子政务不可或缺的部分</a>
+					</li>
+					<li><span>·</span><a href="">湖北省密码管理局领导到中心检查</a>
+					</li>
+					<li><span>·</span><a href="">宜昌市公务员办公门户系统通过验收</a>
+					</li>
+					<li><span>·</span><a href="">千家单位社保“试水”网上申报</a>
+					</li>
+					<li><span>·</span><a href="">3月1日起宜昌城区单位可网上申报</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mainBox cl ov">
+				<div class="Mleft fl ov">
+					<div class="newsBox">
+						<h1><span><a href="">更多</a></span>新闻资讯</h1>
+						<ul class="Font_list">
+							<li><span>·</span><a href="">数字证书－电子政务不可或缺的部分</a>
+							</li>
+							<li><span>·</span><a href="">湖北省密码管理局领导到中心检查</a>
+							</li>
+							<li><span>·</span><a href="">宜昌市公务员办公门户系统通过验收</a>
+							</li>
+							<li><span>·</span><a href="">千家单位社保“试水”网上申报</a>
+							</li>
+							<li><span>·</span><a href="">3月1日起宜昌城区单位可网上申报</a>
+							</li>
+						</ul>
+					</div>
+					<div class="newsBox">
+						<h1><span><a href="">更多</a></span>服务专区</h1>
+						<div class="tab">
+							<ul class="menu">
+								<li class="active">服务事项</li>
+								<li>服务指南</li>
+								<li>应用服务</li>
+							</ul>
+							<div class="con1">
+								<ul class="Font_list">
+									<li><span>·</span><a href="">3月1日起宜昌城区单位可网上申报</a>
+									</li>
+									<li><span>·</span><a href="">宜昌市公务员办公门户系统通过验收</a>
+									</li>
+									<li><span>·</span><a href="">千家单位社保“试水”网上申报</a>
+									</li>
+									<li><span>·</span><a href="">湖北省密码管理局领导到中心检查工作</a>
+									</li>
+
+								</ul>
+							</div>
+							<div class="con2">
+								<ul class="Font_list">
+									<li><span>·</span><a href="">湖北省密码管理局领导到中心检查</a>
+									</li>
+									<li><span>·</span><a href="">宜昌市公务员办公门户系统通过验收</a>
+									</li>
+									<li><span>·</span><a href="">千家单位社保“试水”网上申报</a>
+									</li>
+									<li><span>·</span><a href="">3月1日起宜昌城区单位可网上申报</a>
+									</li>
+								</ul>
+							</div>
+							<div class="con3">
+								<ul class="Font_list">
+									<li><span>·</span><a href="">数字证书－电子政务不可或缺的部分</a>
+									</li>
+									<li><span>·</span><a href="">湖北省密码管理局领导到中心检查工作</a>
+									</li>
+									<li><span>·</span><a href="">宜昌市公务员办公门户系统通过验收</a>
+									</li>
+									<li><span>·</span><a href="">千家单位社保“试水”网上申报</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="newsBox">
+						<h1><span><a href="">更多</a></span>问题解答</h1>
+						<ul class="Font_list">
+							<li><span>·</span><a href="">数字证书－电子政务不可或缺的部分</a>
+							</li>
+							<li><span>·</span><a href="">湖北省密码管理局领导到中心检查</a>
+							</li>
+							<li><span>·</span><a href="">宜昌市公务员办公门户系统通过验收</a>
+							</li>
+							<li><span>·</span><a href="">千家单位社保“试水”网上申报</a>
+							</li>
+							<li><span>·</span><a href="">3月1日起宜昌城区单位可网上申报</a>
+							</li>
+						</ul>
+					</div>
+					<div class="busnissPro ov">
+						<a href="">业务类型</a>
+						<a href="">办理流程</a>
+						<a href="">收费标准</a>
+						<a href="">服务网点</a>
+					</div>
+				</div>
+				<div class="svRt fr ov">
+					<div class="download pr">
+						<div class="pa_submenu  pa">
+							<a href="">受理表格</a>
+							<a href="">应用程序</a>
+							<a href="">操作手册</a>
+						</div>
+					</div>
+					<div class="onlineSeic pr">
+						<div class="pa_submenu  pa">
+							<a href="">在线更新</a>
+							<a href="">在线解锁</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wrap">
+				<div class="partnerLink fr">
+					<select>
+						<option value="1">相关网站</option>
+					</select> 友情链接
+				</div>
+				版权所有　宜昌科技有限责任公司　Copyright @ 2009 YCRA All Rights Reserved 鄂新网备0202号 </div>
+		</div>
+	</body>
+
+</html>

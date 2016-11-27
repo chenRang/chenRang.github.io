@@ -1,0 +1,113 @@
+* { margin: 0; padding: 0;}
+body {color: #333; font-size: 14px; font-family: "微软雅黑",arial; }
+ul li, ol li { list-style:none;}
+table { border-collapse:collapse;}
+fieldset,img { border:0; vertical-align:middle;}
+a { color:#666; text-decoration:none;}
+a:focus { outline:0;}
+a:focus,a:hover { color:#c00; text-decoration:none;}
+em { font-style:normal;}
+input,textarea { font-family:"Arial";}
+.fl { float:left;}
+.fr { float:right;}
+.cl { clear:both;}
+.ov { overflow:hidden;}
+.bor { border:1px solid;}
+.br { border-radius:3px;}
+.pr { position:relative;}
+.pa { position:absolute;}
+.mg0 { margin:0 auto;}
+.wrap { width: 1110px; margin: 0 auto; overflow: hidden;}
+
+/*~~~~~网站头部区域：logo、搜索框样式~~~~~~*/
+.head { background: #f8f8f8; }
+.head>.wrap { padding: 15px 0;}
+	.logo { width: 380px; height: 65px;}
+	.site_search { width: 310px; height: 28px; border-color: #ccc; background: #fff; overflow: hidden;  padding-right: 5px; margin-top: 15px;}
+		.schBox { width: 210px; border: none; height: 28px; line-height: 28px; padding: 0 5px; color: #acacac; float: left;}
+		.site_search button { width: 85px; height: 28px; background: #fff url(../images/search.png) no-repeat right center; border: none; font-family: "微软雅黑"; color: #828282; padding-right: 20px; float: right;}
+		
+/*~~~~~~网站导航~~~~~~~*/
+.siteMenu { background: #be0000; height: 39px; padding-top: 1px; clear: both; }
+	.siteMenu ul { display: inline-block; float: left; overflow: hidden; padding: 0 20px;}
+	.siteMenu ul li { float: left; width: 120px; height: 39px; line-height: 39px; text-align: center; font-size: 15px; margin-right: 10px; font-weight: bold;}
+	.siteMenu ul li a { color: #fff; display: block;}
+	.siteMenu ul li a:hover { background: url(../images/menu_li_hover.png) repeat-x left bottom; color: #494949;}
+	.sideBar { line-height: 28px; text-align: right; padding: 5px 0; font-size: 14px; color: #fff; display: inline-block; float: right;}
+		.sideBar a{ color: #fff; padding: 0 10px; margin: 0 5px; display:inline-block; line-height: 28px; border-radius: 15px;}
+		.sideBar a:hover {color: #ff0; background: rgba(255,255,255,0.5);}
+
+/*index_banner*/
+.index_banner{position:relative; width: 835px; height: 285px;}
+.index_banner ul{overflow:hidden;}
+	.index_banner li{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:285px;}
+	.index_banner li a{display:block;margin:0 auto;}
+	.index_banner cite{position:absolute; bottom:5px; right:10px; z-index:999; display:inline-block; height:15px; _display:none;}
+		.index_banner cite span{float:left;display:block;margin:0 4px;width:40px;height:8px;background-color:#e5e5e5;text-indent:-999em;opacity:.8;cursor:pointer;}
+		.index_banner cite span:hover{background-color:#f5f5f5;}
+		.index_banner cite span.cur{background-color:#fa2626;cursor:default;}
+
+/*affiche公告*/
+.affiche { width: 245px; height: 255px; background:#fff url(../images/affiche_bg.png) repeat-x left bottom; padding: 15px;}
+.affiche>h1 { height: 9px; background: #BE0000; margin: 24px 0 10px; text-align: center;}
+	.affiche>h1>span { width: 75px; line-height: 30px; background: #fff; font-size: 16px; display: inline-block; left:85px; top: -10px; color: #BE0000;}
+.Font_list { line-height: 38px; padding: 0 2px; color: #666;}
+	.Font_list li { border-bottom:1px dashed #ccc;}
+	.Font_list li span { margin-right: 5px;}
+	
+/*首页中间部分主体内容*/
+.mainBox { padding: 15px 0;}
+.Mleft { width: 835px;}
+.newsBox {width: 265px; height: 210px; overflow: hidden; float: left; margin:0 20px 13px 0}
+.newsBox:nth-child(3n){ margin: 0;}
+.newsBox h1 {line-height: 30px; border-bottom: 2px solid #5e5e5e; font-size: 15px; color: #BE0000; padding: 0 5px; margin-bottom: 12px;}
+	.newsBox h1 span {float: right; font-size: 12px;}
+		.newsBox h1 span a { color: #BE0000;}
+/* tab */
+.tab{width:265px; overflow: hidden;}
+	.tab ul.menu{height:23px; border-bottom: 1px dashed #ccc; padding-bottom: 6px;}
+		.tab ul.menu li{ float:left; text-align:center; display:inline-block; line-height:23px; font-size:14px; cursor:pointer; padding: 0 10px; margin-right: 10px; color: #BE0000;}
+	.tab ul.menu li.active{background:#BE0000;color:#fff;}
+.con1,.con2,.con3{clear: both;}
+.con2,.con3{display:none;}
+.newsBox>.Font_list li,.tab ul.Font_list li {line-height: 29px; font-size: 12px;}
+
+/*业务办理*/
+.busnissPro {height: 50px; border: 1px solid #ccc; clear: both; background: #f3f3f3 url(../images/bisspro.png) no-repeat 10px center; box-shadow: 0 0 0 1px #fff inset; padding-left: 232px; text-align: right; }
+	.busnissPro a { float: left; display: block; width: 150px; text-align: center; line-height: 48px; margin: 1px 0;}
+	.busnissPro a:hover { background: #c93131; color: #fff;}
+
+/*主题内容右边区域*/
+.svRt { width: 265px;}
+.download,.onlineSeic{ height: 128px; border: 1px solid #ccc; }
+	.download{background: url(../images/download.jpg) no-repeat 0 0; margin-bottom: 15px;}
+	.onlineSeic { background: url(../images/onlineservice.jpg) no-repeat 0 0;}
+.pa_submenu { background: rgba(190,0,0,0.7); width: 245px; line-height: 35px; bottom: 0; left: 0; padding: 0 10px; overflow: hidden;}
+	.pa_submenu a { float: left; background: url(../images/sj.png) no-repeat left center; padding-left: 10px; margin-right: 15px; color: #fff;}
+	.pa_submenu a:hover{ color: #ff0;}
+
+/*底*/
+.footer { background: url(../images/footer_img.png) repeat-x left top; padding: 30px 0; color: #5f5f5f;}
+.partnerLink { display: inline-block; color: #de0000; }
+	.partnerLink select { width: 180px; height: 21px; border: 1px solid #a2a2a2; margin-right: 5px; color: #818181;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
