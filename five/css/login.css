@@ -1,0 +1,146 @@
+@charset "utf-8";
+html,body{
+	width:100%;height:100%;
+}
+#header,#login{
+	width:100%;
+}
+/*头部开始*/
+#header{
+	height:89px;
+	padding:11px 0 0 211px;
+	position: relative;
+}
+#header img{
+	width:229px;
+	height:89px;
+	float:left;
+}
+#header>span{
+	font-family: Helvetica,黑体;
+	font-size: 18px;
+	color: #949292;
+	float:left;
+	margin:30px 0 0 10px;
+}
+#header>.header-phone{
+	width:174px;
+	height:26px;
+	position:absolute;
+	left:1040px;
+	top:73px;
+}
+#header>.header-phone>i>img{
+	width:24px;
+	height:26px;
+}
+#header>.header-phone>span{
+	font-family: Helvetica,黑体;
+	font-size: 15px;
+}
+ /*头部结束*/ 
+#login{
+	height:570px;
+	background:url(../img/bai-bg.jpg) no-repeat center;
+	position: relative;
+	margin:0 auto;
+}
+.login-content{
+	width:1155px;
+	height:570px;
+	margin:0 auto;
+}
+.login-content-bg{
+	width:705px;
+	height:680px;
+	background:url(../img/baijin-icon.png) no-repeat 0 0;
+	position:absolute;
+}
+.login-content-right{
+	width:300px;
+	height:399px;
+	background:#fff;
+	float:right;
+	padding:50px 75px;
+	margin-top:47px;
+	box-shadow: 0 0 8px #999;
+}
+.login-tit{
+	width:300px;
+	height:37px;
+	border-bottom:1px solid #ccc;
+	color: #6d6d6d;
+	font-size: 15px;
+}
+.login-list{
+	width:254px;
+	margin:0 auto;
+}
+.login-list>li{
+	margin-top:27px;
+	/*width:100%;*/
+	height:36px;
+}
+#username,#password{
+	width:218px;
+	height:32px;
+	border:1px solid #ccc;
+	padding-left:32px;
+}
+#username{
+	background:url(../img/login_reg_input_user_bg.jpg) no-repeat left top;
+}
+#password{
+	background:url(../img/login_reg_input_pw_bg.jpg) no-repeat left top;
+}
+#remember{
+	/*margin-top:32px;*/
+}
+#login-submit{
+	width:100%;
+	height:32px;
+	background:#CF0101;
+	border:0;
+	color:#fff;
+	font-size:16px;
+	cursor: pointer;
+}
+.login-remember{
+	width:150px;
+	height:16px;
+	position
+}
+.login-forget{
+	float:right;
+	font: 12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+	text-decoration: underline;
+	color:#A78668;
+}
+.login-list>.login-list-last{
+	padding-left:122px;
+}
+.login-list>.login-list-last span{
+	font: 12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+	margin-right:14px;
+}
+.login-list>.login-list-last a{
+	font: 12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+	text-decoration: underline;
+	color:#A78668;
+}
+.cooperation-login{
+	width:100%;
+	height:100px;
+	border-top:1px solid #ccc;
+}
+.cooperation-login{
+	padding:24px 0 0 24px;
+}
+.cooperation-login>p{
+	font: 12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+}
+.cooperation-login-list>li{
+	float:left;
+	margin-right:3px;
+}
+/*头部结束*/

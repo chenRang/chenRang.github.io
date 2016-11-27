@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的收藏</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/uesrCommonHead.css"/>
+		<link rel="stylesheet" type="text/css" href="css/userCommonLeftMenu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/userCollect.css"/>
+	</head>
+	<body>
+		<div id="head"></div>
+		<div id="content">
+			<div class="content-left"></div>
+			<div class="content-right">
+				<div class="order-tit"><span>我的收藏</span></div>
+				<div class="orderContent">
+					<table class="collectTable" cellspacing="0" cellpadding="0">
+						<thead>
+							<tr>
+								<th width="138"><input type="checkbox" name="checkAll" checked="checked" id="checkAll" value="" />全选</th>
+								<th width="349">商品名称</th>
+								<th width="108">商品规格</th>
+								<th width="108">第五大道价</th>
+								<th width="108">操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="checkbox" name="checkAll" id="checkAll" checked="checked" value="" /></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td><a class="delete" href="javascript:void(0)">删除</a><a class="addToCar" href="shoppingcar.html">加入购物车</a></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="none">
+						<span>您还没有收藏任何商品哦</span>
+						<a href="index.html">去首页看看>></a>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div id="foot"></div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/userCollect.js" type="text/javascript" charset="utf-8"></script>
+</html>

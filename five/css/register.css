@@ -1,0 +1,148 @@
+@charset "utf-8";
+#header,#required{width:100%;}
+/*头部开始*/
+#header{
+	height:89px;
+	padding:11px 0 0 211px;
+	position: relative;
+}
+#header img{
+	width:229px;
+	height:89px;
+	float:left;
+}
+#header>span{
+	font-family: Helvetica,黑体;
+	font-size: 18px;
+	color: #949292;
+	float:left;
+	margin:30px 0 0 10px;
+}
+#header>.header-phone{
+	width:174px;
+	height:26px;
+	position:absolute;
+	left:1040px;
+	top:73px;
+}
+#header>.header-phone>i>img{
+	width:24px;
+	height:26px;
+}
+#header>.header-phone>span{
+	font-family: Helvetica,黑体;
+	font-size: 15px;
+}
+/*头部结束*/
+/*内容开始*/
+#required{
+	height:660px;
+	background:url(../img/zhuce-bg.jpg)no-repeat -380px 0;
+	background-color:#ECEBE7;
+}
+.required-center{
+	margin:0px auto;
+	width:1000px;
+	height:100%;
+	position:relative;
+}
+.required-tit{
+	width:650px;
+	height:100%;
+	background:url(../img/zhuce-icon.png) no-repeat 0 0;
+	position:absolute;
+	left:-115px;
+}
+.required-content{
+	width:390px;
+	height:577px;
+	float:right;
+	background:#fff;
+	margin-top:47px;
+	padding:15px 0 0 60px;
+}
+.required-content-tit{
+	width:329px;
+	height:30px;
+	border-bottom:1px solid #ccc;
+}
+.required-content-tit>span{
+	display:block;
+	width:112px;
+	height:29px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	background:#000;
+	color:#fff;
+	text-align:center;
+	line-height: 29px;
+}
+.required-content-form{
+	width:329px;
+	height:436px;
+	border-bottom:1px solid #ccc;
+}
+.get-authcode{
+	display:block;
+	width:70px;
+	height:25px;
+	background:#fff;
+	position:absolute;
+	right:-30px;
+	top:3px;
+	border:1px solid #ccc;
+	color:#000;
+	text-align: center;
+	line-height: 25px;
+}
+.get-authcode:hover{
+	background:#888044;
+	color:#fff;
+}
+.required-content-list{
+	width:100%;
+	height:auto;
+	padding-top:32px;
+}
+.required-content-list li{
+	width:auto;
+	height:64px;
+	position: relative;
+}
+.required-content-list li:nth-child(n+5){
+	height:44px;
+}
+.required-content-list li label{
+	display:inline-block;
+	width:74px;
+	text-align:right;
+}
+.required-content-list li input:not([type="checkbox"]){
+	border:1px solid #ccc;
+	width:205px;
+	height:30px;
+	padding-left:5px;
+}
+.required-content-list li #submit-btn{
+	width:210px;
+	margin-left:74px;
+	background:#CF0101;
+	border:0;
+	color:#fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.required-content-list li:nth-child(5){
+	padding-left:62px;
+}
+.required-content-list li:last-child{
+	padding:22px 0 0 194px;
+	height:22px;
+}
+.required-content-activity{
+	margin:37px 0 0 51px;
+}
+.required-content-activity>span{
+	color:#f00;
+}
+/*内容结束*/

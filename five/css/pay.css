@@ -1,0 +1,126 @@
+@charset "utf-8";
+/*html,body{
+	width:100%;
+	height:100%;
+}*/
+#header{
+	width:100%;
+	height:177px;
+}
+#foot{
+	width:100%;
+	height:601px;
+}
+#condition,#pay-tit,#order-information,#pay-type,#toPay{
+	width:1190px;
+	margin:0 auto;
+	font-family: "微软雅黑";
+}
+#condition{
+	height:75px;
+	margin-top:33px;
+}
+.conditionBg{
+	width:700px;
+	height:47px;
+	background:url(../img/cart_step.jpg) no-repeat 0 -112px;
+	float:right;
+}
+#pay-tit{
+	height:62px;
+}
+.tit{
+	width:276px;
+	height:40px;
+	margin:0 auto;
+	padding:11px 0;
+}
+.pay-img{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(../img/share02.png) no-repeat -163px -326px;
+	float:left;
+}
+.tit>p{
+	width:216px;
+	height:40px;
+	float:left;
+	padding-left:20px;
+	color:#d00000;
+	font-size:18px;
+	text-align:center;
+	line-height:40px;
+}
+#order-information{
+	height:166px;
+	margin-bottom:20px;
+}
+.head-tit{
+	width:1170px;
+	height:40px;
+	padding-left:20px;
+	background:#ebeaea;
+	line-height:40px;
+	margin-bottom:5px;
+}
+.order-information-content{
+	width:1108px;
+	height:86px;
+	padding:20px 40px;
+	border:1px solid #dfdfdf;
+	background: #f7f7f7
+}
+.order-information-content>p{
+	width:1108px;
+	height:24px;
+	padding:10px 0;
+	font-size:14px;
+	color:#666;
+	line-height: 24px;
+}
+.order-list{
+	width:1088px;
+	min-height:42px;
+	height:auto;
+	background:#fff;
+	padding-left:20px;
+}
+.order-list>p{
+	float:left;
+	width:226px;
+	height:100%;
+	line-height: 42px;
+}
+#pay-type{
+	height:118px;
+}
+.pay-type-content{
+	width:1148px;
+	height:31px;
+	padding:20px;
+	border:1px solid #dfdfdf;
+}
+.payTypePic{
+	width:1128px;
+	height:31px;
+	padding-left:20px;
+}
+#toPay{
+	height:35px;
+	margin:30px auto 20px;
+}
+#toPay>p,#toPay>a,.toPayBtn{
+	float:right;
+	display:block;
+	line-height: 35px;
+}
+.toPayBtn{
+	width:122px;
+	height:35px;
+	color:#fff;
+	background:#d00000;
+	border:0;
+	margin-left:20px;
+	cursor: pointer;
+}

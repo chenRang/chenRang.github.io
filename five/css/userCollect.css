@@ -1,0 +1,103 @@
+#content{
+	margin-top:15px;
+	width:1000px;
+	min-height:300px;
+	height:auto;
+	margin-bottom:20px;
+}
+.content-left{
+	width:155px;
+	min-height:96px;
+	height:auto;
+	float:left;
+	box-shadow: 0 0 5px #ccc
+}
+.content-right{
+	width:815px;
+	min-height:250px;
+	height:auto;
+	float:right;
+	box-shadow: 0 0 5px #ccc;
+	padding:0 10px;
+}
+.order-tit{
+	width:100%;
+	height:37px;
+	border-bottom:1px solid #ddd;
+}
+.order-tit>span{
+	display:block;
+	width:68px;
+	height:35px;
+	border-bottom: 2px solid #cf0101;
+	font-size: 16px;
+	line-height: 35px;
+	text-align: center;
+	font-weight: 600;
+}
+.orderContent{
+	width:100%;
+	min-height:175px;
+	height:auto;
+	margin:15px 0;
+	padding-top:7px;
+}
+
+.none{
+	width:100%;
+	height:74px;
+	padding-top:70px;
+	margin-bottom:20px;
+	display:none;
+}
+.none>span{
+	display:block;
+	width:100%;
+	height:24px;
+	text-align:center;
+	font:18px/24px "微软雅黑";
+}
+.none>a{
+	width:98px;
+	height:28px;
+	display:block;
+	border-radius: 2px;
+	border:1px solid #d00000;
+	color:#fff;
+	background:#d00000;
+	margin:20px auto;
+	font:14px/28px "微软雅黑";
+	text-align:center;
+}
+.none>a:hover{
+	background:#fff;
+	color:#666;
+}
+.collectTable{
+	border-collapse: collapse;
+	border:#e1e1e1 solid 1px;
+}
+.collectTable img{
+	width:60px;
+	height:60px;
+	float:left;
+}
+.collectTable tbody tr td:nth-child(2) span{
+	float:left;
+}
+.collectTable tbody tr td:last-child a{
+	display:block;
+}
+.collectTable th{
+	height:32px;
+	background:url(../img/user_level.png) no-repeat -1px -215px;
+	font-weight: 600;
+}
+.collectTable>tbody td{
+	height:83px;
+	text-align: center;
+	border:#e1e1e1 solid 1px;
+}
+.clear{
+	clear:both;
+}

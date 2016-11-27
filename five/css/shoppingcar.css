@@ -1,0 +1,178 @@
+@charset "utf-8";
+#header{
+	width:100%;
+	height:177px;
+}
+#foot{
+	width:100%;
+	height:601px;
+}
+#condition,#productList,#total{
+	width:1190px;
+	margin:0 auto;
+}
+#condition{
+	height:77px;
+	margin-top:31px;
+}
+.conditionBg{
+	width:700px;
+	height:47px;
+	background:url(../img/cart_step.jpg) no-repeat 0 0;
+	float:right;
+}
+#productList{
+	min-height:41px;
+	height:auto;
+}
+.productList-table{
+	width:1190px;
+	min-height:41px;
+	height:auto;
+
+  	border-collapse: collapse;
+}
+.productList-tit{
+	height:41px;
+	background:#EBEAEA;
+	border-bottom:1px solid gray;
+
+}
+.productList-tit>th{
+	hegiht:40px;
+	font-size: 14px;
+}
+.productList-tit>th:last-child{
+	text-align: left;
+}
+.productList-table tbody tr{
+	border-bottom:1px solid grey;
+}
+.productList-table tbody td{
+	text-align:center;
+	height:101px;
+}
+.img{
+	width:95px;
+	height:95px;
+}
+.number{
+	width:30px;
+	height:20px;
+	text-align: center;
+}
+.addPrise{
+	color:#000;
+	font-weight: 900;
+}
+.productList-table tbody td a{
+	display:block;
+	text-align: left;
+}
+.orderPackage b{
+	display:block;
+	width:20px;
+	height:20px;
+	background:url(../img/new_5luxbg.png) no-repeat -363px -51px;
+	float:left;
+}
+.orderPackage span{
+	display:block;
+	line-height:25px;
+	color:#D00000;
+	float:left;
+}
+#total{
+	height:auto;
+}
+.none{
+	width:100%;
+	height:74px;
+	padding-top:70px;
+	margin-bottom:20px;
+}
+.none>span{
+	display:block;
+	width:100%;
+	height:24px;
+	text-align:center;
+	font:18px/24px "微软雅黑";
+}
+.none>a{
+	width:98px;
+	height:28px;
+	display:block;
+	border-radius: 2px;
+	border:1px solid #d00000;
+	color:#fff;
+	background:#d00000;
+	margin:20px auto;
+	font:14px/28px "微软雅黑";
+	text-align:center;
+}
+.none>a:hover{
+	background:#fff;
+	color:#666;
+}
+.goToPay{
+	width:1165px;
+	height:55px;
+	padding:35px 0 0 25px;
+}
+.goToPay-left{
+	width:200px;
+	height:45px;
+	float:left;
+	padding-top:10px;
+}
+.goToPay-left input{
+	float:left;
+	margin:0;
+}
+.goToPay-left a{
+	display:block;
+	color:#666;
+	float:left;
+	height:12px;
+	line-height:12px;
+	margin-right:13px;
+}
+.goToPay-left a:last-child{
+	padding-left:13px;
+	border-left:1px solid #666;
+}
+.goToPay-right{
+	width:483px;
+	height:100%;
+	float:right;
+}
+.goToPay-right>p{
+	float:left;
+	line-height:32px;
+	margin-right:20px;
+	text-align: right;
+}
+.count{
+	/*display:block;*/
+	color:#D00000;
+	text-align: right;
+}.money{
+	width:70px;
+	display:block;
+	float:left;
+	font-size: 20px;
+	color:#D00000;
+	line-height:32px;
+	text-align: right;
+}
+.goToPay-right>a{
+	display:block;
+	float:left;
+	width:136px;
+	height:35px;
+	background:#D00000;
+	font:14px/35px "微软雅黑";
+	text-align: center;
+	color:#fff;
+	margin-left:20px;
+}

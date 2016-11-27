@@ -1,0 +1,24 @@
+@charset "utf-8";
+.userList>li>a{
+	display:block;
+	width:155px;
+	height:32px;
+	font:14px/32px "微软雅黑";
+	text-align: center;
+	background:#C69C6D;
+	color:#000;
+}
+.userListMenu>li{
+	height:32px;
+	width:155px;
+	text-align: center;
+}
+.userListMenu>li>a{
+	margin:0 auto;
+	font-size:13px;
+	line-height:32px;
+	color:#333;
+}
+.userListMenu>li>a:hover{
+	text-decoration: underline;
+}

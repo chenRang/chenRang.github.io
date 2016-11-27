@@ -1,0 +1,94 @@
+#content{
+	margin-top:15px;
+	width:1000px;
+	min-height:300px;
+	height:auto;
+	margin-bottom:20px;
+}
+.content-left{
+	width:155px;
+	min-height:96px;
+	height:auto;
+	float:left;
+	box-shadow: 0 0 5px #ccc
+}
+.content-right{
+	width:815px;
+	height:250px;
+	float:right;
+	box-shadow: 0 0 5px #ccc;
+	padding:0 10px;
+}
+.updatePwd-tit{
+	width:100%;
+	height:37px;
+	border-bottom:1px solid #ddd;
+}
+.updatePwd-tit>span{
+	display:block;
+	width:68px;
+	height:35px;
+	border-bottom: 2px solid #cf0101;
+	font-size: 16px;
+	line-height: 35px;
+	text-align: center;
+	font-weight: 600;
+}
+.updatePwd{
+	width:100%;
+	height:175px;
+	margin:15px 0;
+	padding-top:7px;
+}
+.updatePwd-list{
+	width:385px;
+	height:164px;
+	margin:0 auto;
+}
+.updatePwd-list>li{
+	height:28px;
+	width:385px;
+	margin:15px 0;
+}
+.updatePwd-list>li>label{
+	display:block;
+	width:85px;
+	height:28px;
+	line-height: 28px;
+	float:left;
+}
+.updatePwd-list>li:not(:last-child)>input{
+	width:182px;
+	height:26px;
+	border:1px solid #DCDCDC;
+	padding:0 5px;
+	float:left;
+}
+.updatePwd-list>li:last-child>input{
+	width:58px;
+	height:28px;
+	background:#d00000;
+	text-align:center;
+	line-height: 28px;
+	border:0;
+	color:#fff;
+	cursor: pointer;
+	float:left;
+}
+.clear{
+	clear:both;
+}
+.prompt{
+	position:fixed;
+	left:40%;
+	top:45%;
+	width:400px;
+	height:200px;
+	background:#fff;
+	box-shadow: 0 0 10px #666666;
+	color:#D00000;
+	text-align:center;
+	line-height:200px;
+	font-size:20px;
+	display:none;
+}

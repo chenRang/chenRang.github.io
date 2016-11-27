@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>提交订单</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/submitOrder.css"/>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="condition">
+			<div class="conditionBg">
+			</div>
+		</div>
+		<div id="detailedAddress">
+			<div class="tit">收货信息</div>
+			<div class="detailedAddress-content">
+				<ul class="detailedAddress-list">
+					<li><label>收货人姓名：</label><input class="consignee" type="text" value="小明" /><span class="error">收货人不能为空</span></li>
+					<li id="ad"><label>收货人地址：</label>
+						<select class="prov" name="" id="province">
+							<option value="0">请选择</option>
+							<option value="1">河南省</option>
+							<option value="2">上海市</option>
+						</select>
+						<select class="city" id="city" name="">
+							<option value="">请选择</option>
+							<option value="">上海市</option>
+							<option value="">洛阳市</option>
+						</select>
+						<select class="dist" id="region" name="">
+							<option value="">请选择</option>
+							<option value="">宝山区</option>
+							<option value="">涧西区</option>
+						</select>
+						<span class="error"></span>
+					</li>
+					<li><label>详细的地址：</label><input class="consignee-ad" type="text" value="联盟路119号" /><span class="error">详细地址不能为空</span></li>
+					<li><label>手机的号码：</label><input class="consignee-phone" type="text" value="15167107373" /><span class="error">收货人手机号码不能为空</span></li>
+					<li><input class="save" type="button" value="添加并保存" /><input class="cancel" type="button" value="取消" /></li>
+				</ul>
+			</div>
+			<!--<div class=""></div>-->
+		</div>
+		<div id="sentTime">
+			<div class="tit">送货时间</div>
+			<div class="sentTime-content">
+				<ul class="sentTime-list">
+					<li><input type="radio" name="ral" checked="checked "/>只工作日送货</li>
+					<li><input type="radio" name="ral" />随时送货</li>
+					<li><input type="radio" name="ral" />双休日、假期送货（工作日不送货）</li>
+				</ul>
+			</div>
+		</div>
+		<div id="payType">
+			<div class="tit">支付方式</div>
+			<div class="payType-content">
+				<ul class="payType-list">
+					<li><a href="javascript:void(0)"><img class="check" src="img/zhifubao.png"/><i class="check-img"></i></a></li>
+					<li><a href="javascript:void(0)"><img src="img/weixin.png"/><i></i></a></li>
+					<li><a href="javascript:void(0)"><img src="img/yinlian.jpg"/><i></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="productList">
+			<div class="tit">商品清单
+				<a class="backToShoppingCar" href="shoppingcar.html">返回修改购物车</a>
+			</div>
+			<div class="productList-content-top">
+				<div class="sentType">
+					<p>配送方式</p>
+					<ul>
+						<li><span>普通快递<i></i></span></li>
+						<li><span>到店自提<i></i></span></li>
+					</ul>
+				</div>
+				<div class="account">
+					<p>此订单由第五大道奢侈品网为您服务</p>
+					<table class="submitOrder-table" cellspacing="0" cellpadding="0">
+						<tbody>
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="productList-content-center">
+				<ul>
+					<li><span>商品金额小计：</span><span class="money"></span></li>
+					<li><span>运费：</span><span class="freight">0</span></li>
+					<li><span>应付金额：</span><span class="totalPrices bigred"></span></li>
+				</ul>
+			</div>
+			<div class="productList-content-bottom">
+				<span class="remarks"><b>+</b>订单备注：</span>
+				<textarea class="remarkstxt" name="remarkstxt" rows="5" cols="20"></textarea>
+				<div class="submit">
+					<button class="submitBtn">提交订单</button>
+					<span class="totalPrices  bigred"></span>
+					<span class="bigred">￥&nbsp;</span>
+					<span>应付金额：</span>
+				</div>
+			</div>
+		</div>
+		<div id="foot"></div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/submitOrder.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>

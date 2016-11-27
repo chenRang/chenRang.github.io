@@ -1,0 +1,24 @@
+@charset "utf-8";
+#content{
+	width:264px;
+	min-height:40px;
+	height:auto;
+	padding:50px 200px;
+	margin:30px auto;
+	box-shadow: 0 0 10px #666;
+}
+#content>p{
+	margin-left:13px;
+	font-size:20px;
+	color:#D00000;
+}
+#content>button{
+	width:240px;
+	margin:20px 0 0 13px;
+	height:50px;
+	background:#D00000;
+	border:0;
+	color:#fff;
+	font-size: 18px;
+	cursor: pointer;
+}

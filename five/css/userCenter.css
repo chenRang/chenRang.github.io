@@ -1,0 +1,148 @@
+@charset "utf-8";
+#content{
+	margin-top:15px;
+	width:1000px;
+	height:737px;
+	margin-bottom:20px;
+}
+.content-left{
+	width:155px;
+	min-height:96px;
+	height:auto;
+	float:left;
+	box-shadow: 0 0 5px #ccc
+}
+.content-right{
+	width:825px;
+	height:737px;
+	float:right;
+	box-shadow: 0 0 5px #ccc;
+	padding-left:10px;
+}
+.uesrInformation{
+	width:823px;
+	height:550px;
+	background:url(../img/info_bg.jpg) no-repeat 0 0;
+	box-shadow: #a7a7a7 0px 2px 16px
+}
+.advertisement{
+	width:100%;
+	height:120px;
+	margin:25px 0 20px 0;
+}
+.advertisement>a{
+	display:block;
+	width:100%;
+	height:100%;
+	background:url(../img/ucenter_zhupan_bg.jpg) no-repeat 0 0;
+}
+/*.myHistory{
+	width:823px;
+	height:322px;
+	box-shadow: #a7a7a7 0px 2px 16px
+}*/
+.userLevel{
+	width:100%;
+	height:135px;
+	padding-top:20px;
+}
+.userHeader{
+	width:135px;
+	height:135px;
+	float:left;
+}
+.head{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	border:1px solid #ddd;
+ 	box-shadow:0px 0px 3px #ddd;
+ 	overflow: hidden;
+}
+.userHeader>a{
+	margin-left:40px;
+}
+.userLevel-list{
+	width:688px;
+	height:100%;
+	float:left;
+}
+.userLevel-list>li{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+}
+.userLevel-list>li:nth-child(2)>i{
+	display:inline-block;
+	width:18px;
+	height:16px;
+	background:url(../img/user_level.png) no-repeat -8px -80px;
+}
+.userLevel-list>li:nth-child(2)>span{
+	margin-right:95px;
+}
+.userLevel-list>li:nth-child(2)>span:last-child{
+	margin-left:45px;
+}
+.userLevel-list>li:nth-child(3),.userLevel-list>li:nth-child(5){
+	height:20px;
+	line-height: 20px;
+}
+.userLevel-list>li:nth-child(3){
+	background:url(../img/user_level.png) no-repeat -8px -8px;
+}
+.userLevel-list>li:nth-child(4)>span{
+	margin-right:150px;
+	color: #fa5d5d;
+}
+.userPrice{
+	width:688px;
+	height:124px;
+	padding:12px 0 12px 135px;
+}
+.userPrice>ul>li{
+	width:100%;
+	height:31px;
+	line-height: 31px;
+}
+.userPrice>ul>li:nth-child(3)>a{
+	margin-left:40px;
+}
+.red{
+	color:#df3338;
+}
+.userSafe{
+	width:688px;
+	height:90px;
+	padding:12px 0 12px 135px;
+}
+.userSafe>ul>li{
+	width:100%;
+	height:30px;
+	line-height:30px;
+}
+.userSafe>ul>li>a{
+	margin:0 15px;
+	color:#333;
+	text-decoration: underline;
+}
+.userOrder{
+	width:688px;
+	height:60px;
+	padding:12px 0 12px 135px;
+}
+.userOrder>ul>li{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+}
+.userOrder>ul>li>a{
+	margin-right:20px;
+	color:#333;
+	text-decoration: underline;
+}
+.info{
+	width:100%;
+	height:5px;
+	background:url(../img/user_level.png) no-repeat 135px -267px;
+}

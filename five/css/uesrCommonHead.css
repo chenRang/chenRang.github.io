@@ -1,0 +1,91 @@
+#header,#title,#content{
+	margin:0 auto;
+	font-family: "微软雅黑";
+}
+#header,#title{
+	width:100%;
+}
+#header{
+	height:110px;
+}
+.headerContent{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+.userLogo{
+	width:229px;
+	height:89px;
+	float:left;
+}
+.text{
+	width:585px;
+	height:45px;
+	float:left;
+	margin:33px 0 0 103px;
+}
+.text-list>li{
+	float:left;
+	width:180px;
+	height:45px;
+	margin-right:15px;
+}
+.text-img{
+	width:39px;
+	height:45px;
+	float:left;
+	margin-right:5px;
+	padding-left:1px;
+}
+.text-img>img:first-child{
+	margin:0 3px 3px 2px;
+	position: relative;
+}
+.text-txt{
+	width:135px;
+	height:45px;
+	float:left;
+}
+.text-txt>a{
+	font: 12px/39px Arial,Verdana;
+	cursor: pointer;
+}
+#title{
+	height:38px;
+	background:url(../img/navi_1pxbg.png) repeat-x left top;
+	box-shadow:0 4px 4px #c7c6c6;
+}
+.title-content{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+.title-tit{
+	width:130px;
+	height:45px;
+	background:#D00000;
+	position: relative;
+	float:left;
+}
+.title-tit>a{
+	display: block;
+	width:100%;
+	color:#fff;
+	font:14px/40px "微软雅黑";
+	font-weight: 600;
+	text-align: center;
+}
+.title-tit>i{
+	display:block;
+	width:7px;
+	height:7px;
+	position: absolute;
+	bottom:0;
+	left:-7px;
+	background:url(../img/lux_index.png) no-repeat -473px -170px;
+}
+.title-content>a{
+	float:right;
+	color:#fff;
+	font:14px/40px "微软雅黑";
+}

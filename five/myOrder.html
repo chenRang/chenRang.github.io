@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/uesrCommonHead.css"/>
+		<link rel="stylesheet" type="text/css" href="css/userCommonLeftMenu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myOrder.css"/>
+	</head>
+	<body>
+		<div id="head"></div>
+		<div id="content">
+			<div class="content-left"></div>
+			<div class="content-right">
+				<div class="order-tit"><span>订单信息</span></div>
+				<div class="orderContent">
+					<div class="orderSearch">
+						<div>
+							<input type="text" placeholder="订单号或收货人姓名" />
+							<input type="button" value="搜索" />
+						</div>
+					</div>
+					<div class="orderStatusTab">
+						<ul>
+							<li class="cleck"><a href="javascript:void(0)">全部订单</a></li>
+							<li><a href="javascript:void(0)">待付款</a></li>
+							<li><a href="javascript:void(0)">已完成</a></li>
+							<li><a href="javascript:void(0)">无效</a></li>
+							<li><a href="javascript:void(0)">闪购订单</a></li>
+						</ul>
+					</div>
+					<div class="orderContentList">
+						<ul class="orderContentList-tit">
+							<li style="width:415px;">订单详情</li>
+							<li style="width:100px;">总计</li>
+							<li style="width:100px;">全部状态</li>
+							<li style="width:100px;">操作</li>
+							<li style="width:100px;">其他操作</li>
+						</ul>
+						<div class="orderTable">
+							<ul>
+								<li></li>
+								<li>订单号:<span class="orderId"></span></li>
+								<li></li>
+							</ul>
+							<table class="orderTableOne" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td style="width:415px;"></td>
+										<td style="width:100px;"></td>
+										<td style="width:100px;"></td>
+										<td style="width:100px;"></td>
+										<td style="width:100px; border:0;"></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="none">
+							<span>您还没有任何订单哦</span>
+							<a href="index.html">去首页看看>></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div id="foot"></div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/myOrder.js" type="text/javascript" charset="utf-8"></script>
+</html>

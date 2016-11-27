@@ -1,0 +1,93 @@
+@charset "utf-8";
+html,body{height:100%;}
+#help-center{
+	width:1187px;
+	/*min-height: 300px;*/
+	height:auto;
+	/*height:858px;*/
+	margin:30px auto;
+
+}
+.clearfix{
+	clear:both;
+	width:100%;
+}
+.help-left{
+	width:165px;
+	height:auto;
+	float:left;
+	background:#F7F7F7;
+}
+
+.help-left-list{
+	width:163px;
+	height:auto;
+	border:1px solid #ccc;;
+}
+.help-left-list>li{
+	height:auto;
+}
+.help-left-list>li>div{
+	width:127px;
+	height:auto;
+	border-bottom:1px solid #ccc;
+	cursor: pointer;
+	padding:16px 18px;
+	color:#D00000;
+	font-size:12px;
+	line-height:13px;
+}
+.help-left-list>li>.help-left-tit>i{
+	display:inline-block;
+	width:12px;
+	height:14px;
+	background:url(../img/share02.png) no-repeat -448px -320px;
+	margin-right:13px;
+}
+.help-left-submenu>li{
+	height:24px;
+	padding:12px 0 0 10px;
+}
+.help-left-submenu>li>a{
+	display:block;
+	width:112px;
+	height:22px;
+	border-bottom:1px dashed #ccc;
+	padding-left:33px;
+	font-size:11px;
+	line-height:12px;
+}
+.help-right{
+	width:988px;
+	height:856px;
+	float:left;
+	margin-left:20px;
+	border:1px solid #ccc;
+	padding-left:10px;
+}
+.help-right h2{
+	font-size:18px;
+	margin:20px auto;
+	width:106px;
+	height:18px;
+	font-family: 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体';
+}
+.help-right h2 b{
+	color:red;
+}
+.help-right h3{
+	font-size:14px;
+	width:106px;
+	height:20px;
+	line-height: 20px;
+}
+.help-right h4{
+	height:20px;
+	font-size:12px;
+	font-weight: 300;
+	line-height: 20px;
+}
+.help-right p{
+	font-size:12px;
+	line-height:24px;
+}
